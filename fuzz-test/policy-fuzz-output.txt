@@ -1,0 +1,68 @@
+WARNING: A Java agent has been loaded dynamically (/var/folders/kt/3l2t67454351wsy6tl5x2h4h0000gn/T/byteBuddyAgent8827126722127301719.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+INFO: Loaded 745 hooks from com.code_intelligence.jazzer.runtime.TraceCmpHooks
+INFO: Loaded 5 hooks from com.code_intelligence.jazzer.runtime.TraceDivHooks
+INFO: Loaded 2 hooks from com.code_intelligence.jazzer.runtime.TraceIndirHooks
+INFO: Loaded 4 hooks from com.code_intelligence.jazzer.runtime.NativeLibHooks
+INFO: Loaded 5 hooks from com.code_intelligence.jazzer.runtime.JazzerApiHooks
+INFO: Loaded 1 hooks from com.code_intelligence.jazzer.sanitizers.BigDecimal
+INFO: Loaded 2 hooks from com.code_intelligence.jazzer.sanitizers.ClojureLangHooks
+INFO: Loaded 5 hooks from com.code_intelligence.jazzer.sanitizers.Deserialization
+INFO: Loaded 24 hooks from com.code_intelligence.jazzer.sanitizers.ExpressionLanguageInjection
+INFO: Loaded 31 hooks from com.code_intelligence.jazzer.sanitizers.FilePathTraversal
+INFO: Loaded 70 hooks from com.code_intelligence.jazzer.sanitizers.LdapInjection
+INFO: Loaded 46 hooks from com.code_intelligence.jazzer.sanitizers.NamingContextLookup
+INFO: Loaded 1 hooks from com.code_intelligence.jazzer.sanitizers.OsCommandInjection
+INFO: Loaded 40 hooks from com.code_intelligence.jazzer.sanitizers.ReflectiveCall
+INFO: Loaded 8 hooks from com.code_intelligence.jazzer.sanitizers.RegexInjection
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.code_intelligence.jazzer.sanitizers.utils.ReflectionUtils
+WARNING: Please consider reporting this to the maintainers of class com.code_intelligence.jazzer.sanitizers.utils.ReflectionUtils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+INFO: Loaded 16 hooks from com.code_intelligence.jazzer.sanitizers.RegexRoadblocks
+INFO: Loaded 12 hooks from com.code_intelligence.jazzer.sanitizers.ScriptEngineInjection
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.code_intelligence.jazzer.bootstrap.com.github.fmeum.rules_jni.RulesJni in an unnamed module
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+INFO: Loaded 3 hooks from com.code_intelligence.jazzer.sanitizers.ServerSideRequestForgery
+INFO: Loaded 19 hooks from com.code_intelligence.jazzer.sanitizers.SqlInjection
+INFO: Loaded 1 hooks from com.code_intelligence.jazzer.sanitizers.TemplateInjection
+INFO: Loaded 63 hooks from com.code_intelligence.jazzer.sanitizers.UnsafeSanitizer
+INFO: Loaded 6 hooks from com.code_intelligence.jazzer.sanitizers.XPathInjection
+INFO: Loaded 20 hooks from com.code_intelligence.jazzer.sanitizers.XmlParserSsrfGuidance
+INFO: Instrumented PolicyFileFuzzer (took 11 ms, size +46%)
+INFO: found LLVMFuzzerCustomMutator (0x10e570c20). Disabling -len_control by default.
+INFO: libFuzzer ignores flags that start with '--'
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 2132144720
+INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x91ada0000, 0x91ada0200), 
+INFO: Loaded 1 PC tables (512 PCs): 512 [0x1027016f0,0x1027036f0), 
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
+INFO: Instrumented DataStore (took 13 ms, size +43%)
+INFO: A corpus is not provided, starting from an empty corpus
+#2	INITED cov: 27 ft: 27 corp: 1/1b exec/s: 0 rss: 1174Mb
+#4	NEW    cov: 28 ft: 29 corp: 2/2b lim: 4 exec/s: 0 rss: 1174Mb L: 1/1 MS: 4 CopyPart-Custom-ChangeBit-Custom-
+#15	NEW    cov: 28 ft: 30 corp: 3/4b lim: 4 exec/s: 0 rss: 1174Mb L: 2/2 MS: 2 CopyPart-Custom-
+#52	NEW    cov: 28 ft: 31 corp: 4/7b lim: 4 exec/s: 0 rss: 1174Mb L: 3/3 MS: 4 ChangeBit-Custom-CopyPart-Custom-
+#109	NEW    cov: 28 ft: 32 corp: 5/10b lim: 4 exec/s: 0 rss: 1174Mb L: 3/3 MS: 4 CopyPart-Custom-CrossOver-Custom-
+#116	NEW    cov: 28 ft: 33 corp: 6/14b lim: 4 exec/s: 0 rss: 1174Mb L: 4/4 MS: 4 CopyPart-Custom-CopyPart-Custom-
+#471	NEW    cov: 28 ft: 34 corp: 7/20b lim: 6 exec/s: 0 rss: 1175Mb L: 6/6 MS: 10 CrossOver-Custom-ShuffleBytes-Custom-ChangeByte-Custom-InsertByte-Custom-ChangeByte-Custom-
+#899	NEW    cov: 28 ft: 35 corp: 8/28b lim: 8 exec/s: 0 rss: 1175Mb L: 8/8 MS: 6 CrossOver-Custom-ShuffleBytes-Custom-CrossOver-Custom-
+#1210	REDUCE cov: 28 ft: 35 corp: 8/27b lim: 11 exec/s: 0 rss: 1175Mb L: 5/8 MS: 2 EraseBytes-Custom-
+#1882	NEW    cov: 28 ft: 36 corp: 9/44b lim: 17 exec/s: 0 rss: 1175Mb L: 17/17 MS: 4 CrossOver-Custom-CrossOver-Custom-
+#2532	REDUCE cov: 28 ft: 37 corp: 10/60b lim: 21 exec/s: 0 rss: 1178Mb L: 16/17 MS: 10 ChangeBit-Custom-CrossOver-Custom-ChangeBit-Custom-InsertByte-Custom-CrossOver-Custom-
+#2604	REDUCE cov: 28 ft: 37 corp: 10/59b lim: 21 exec/s: 0 rss: 1180Mb L: 16/16 MS: 4 CopyPart-Custom-EraseBytes-Custom-
+#5379	REDUCE cov: 28 ft: 38 corp: 11/103b lim: 48 exec/s: 0 rss: 1224Mb L: 44/44 MS: 10 ShuffleBytes-Custom-CopyPart-Custom-ChangeByte-Custom-CrossOver-Custom-CopyPart-Custom-
+#5828	REDUCE cov: 28 ft: 38 corp: 11/102b lim: 48 exec/s: 0 rss: 1232Mb L: 15/44 MS: 8 InsertByte-Custom-EraseBytes-Custom-InsertByte-Custom-CopyPart-Custom-
+#6173	REDUCE cov: 28 ft: 38 corp: 11/97b lim: 48 exec/s: 0 rss: 1235Mb L: 39/39 MS: 10 ChangeByte-Custom-ShuffleBytes-Custom-ChangeByte-Custom-EraseBytes-Custom-CopyPart-Custom-
+#7100	REDUCE cov: 28 ft: 39 corp: 12/147b lim: 53 exec/s: 0 rss: 1252Mb L: 50/50 MS: 4 CopyPart-Custom-CopyPart-Custom-
+#7307	REDUCE cov: 28 ft: 39 corp: 12/142b lim: 53 exec/s: 0 rss: 1256Mb L: 45/45 MS: 4 CrossOver-Custom-EraseBytes-Custom-
+#7373	REDUCE cov: 28 ft: 39 corp: 12/134b lim: 53 exec/s: 0 rss: 1258Mb L: 37/39 MS: 2 EraseBytes-Custom-
+#7576	REDUCE cov: 28 ft: 39 corp: 12/129b lim: 53 exec/s: 0 rss: 1261Mb L: 34/37 MS: 6 CopyPart-Custom-ChangeBit-Custom-EraseBytes-Custom-
+#10000	DONE   cov: 28 ft: 39 corp: 12/129b lim: 74 exec/s: 10000 rss: 1297Mb
+Done 10000 runs in 1 second(s)
