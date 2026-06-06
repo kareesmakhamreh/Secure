@@ -1,0 +1,145 @@
+src/DataStore.java:10:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+src/DataStore.java:17:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/DataStore.java:18:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/DataStore.java:20:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/DataStore.java:29:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/DataStore.java:30:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/DataStore.java:32:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:35:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:35:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:40:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/DataStore.java:47:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:51:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/DataStore.java:52:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:57:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:61:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/DataStore.java:62:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:67:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/DataStore.java:68:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:70:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:72:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:77:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/DataStore.java:89:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/DataStore.java:95:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:95:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:100:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:100:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:105:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:105:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/DataStore.java:105:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:110:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:110:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:117:	ControlStatementBraces:	This statement should have braces
+src/DataStore.java:118:	EmptyCatchBlock:	Avoid empty catch blocks
+src/SecurityUtil.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+src/SecurityUtil.java:4:	UseUtilityClass:	All members are static. Consider adding a private no-args constructor to prevent instantiation.
+src/SecurityUtil.java:8:	ControlStatementBraces:	This statement should have braces
+src/SecurityUtil.java:26:	ControlStatementBraces:	This statement should have braces
+src/SecurityUtil.java:27:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+src/SecurityUtil.java:30:	ControlStatementBraces:	This statement should have braces
+src/SecurityUtil.java:31:	ControlStatementBraces:	This statement should have braces
+src/SecurityUtil.java:32:	ControlStatementBraces:	This statement should have braces
+src/SecurityUtil.java:33:	ControlStatementBraces:	This statement should have braces
+src/SecurityUtil.java:35:	ControlStatementBraces:	This statement should have braces
+src/SecurityUtil.java:36:	ControlStatementBraces:	This statement should have braces
+src/SecurityUtil.java:37:	ControlStatementBraces:	This statement should have braces
+src/SecurityUtil.java:38:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+src/ShipTrack.java:7:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+src/ShipTrack.java:14:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:25:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:25:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:44:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:45:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:45:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:48:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:59:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:68:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:75:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:83:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:84:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:85:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:85:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:91:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:104:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:104:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:105:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:105:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:106:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:106:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:118:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:119:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:120:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:121:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:121:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:121:	UnnecessaryReturn:	Unnecessary return statement
+src/ShipTrack.java:122:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:130:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:131:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:134:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:134:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:176:	NonExhaustiveSwitch:	Switch statements or expressions should be exhaustive, add a default case (or missing enum branches)
+src/ShipTrack.java:193:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:194:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:194:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:195:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:195:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:196:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:196:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:197:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:197:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:198:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:198:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:199:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:200:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:202:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:203:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:212:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:212:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:213:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:213:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:214:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:215:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:217:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:218:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:222:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:225:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:225:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:228:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:233:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:233:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:234:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:234:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:235:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:236:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:238:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:239:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:239:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:240:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:240:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:241:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:242:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:244:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:245:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:245:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:246:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:246:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:247:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:250:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:253:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:253:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:253:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:256:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:265:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:273:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:280:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:282:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:285:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:293:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:293:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:294:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:294:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:295:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+src/ShipTrack.java:296:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:298:	ControlStatementBraces:	This statement should have braces
+src/ShipTrack.java:300:	ControlStatementBraces:	This statement should have braces
